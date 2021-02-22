@@ -1,8 +1,0 @@
-random
-requests
-pandas
-io
-tabulate
-gunicorn
-django
-django-heroku
