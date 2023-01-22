@@ -45,22 +45,5 @@ table=[row1,row2,row3,row4,row5]
 
 bingo=tabulate(table, headers=["B","I","N","G","O"], tablefmt="fancy_grid")
 
-
-
-
-     
-#bingo = PrettyTable(align='c', valign='m', hrrules=1, header=True, border=True)
-##Add the random prompts to the bingo table
-#bingo.field_names = ["B","I","N","G", "O"]
-#bingo.add_row(row1)
-#bingo.add_row(row2)
-#bingo.add_row(row3)
-#bingo.add_row(row4)
-#bingo.add_row(row5)
-
-
-#print(bingo.get_html_string(format=False))
-
-##Print output
 print(bingo)
 
