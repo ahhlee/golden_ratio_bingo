@@ -4,8 +4,7 @@ import random
 import requests
 import pandas as pd
 from io import StringIO
-#from prettytable import PrettyTable
-from tabulate import tabulate
+
 
 
 
