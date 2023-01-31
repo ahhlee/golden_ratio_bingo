@@ -17,7 +17,7 @@ The project takes in a Google Sheet with a list of common scenarios that happen 
 These modules can be installed via the following commands:
 Mac/Linux: 
 ```brew install python3```
-```pip install requests```
+```pip3 install requests```
 
 Windows:
 You'll need to install the latest version of Python3 from [here](https://www.python.org/downloads/windows/).
@@ -33,10 +33,13 @@ Then run the following command:
 
 After cloning the file, use the following command in the terminal to run the program:
 
-On Mac/Linux:
+On Mac/Linux:\
+```python grbingo.py```
+
+If multiple instances of python:\
 ```python3 grbingo.py```
 
-On Windows:
+On Windows:\
 ```python grbingo.py```
 
 Once the program has successfully run it will create a grbingocard.txt file in the current directory.
