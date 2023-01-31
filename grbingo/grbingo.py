@@ -17,20 +17,20 @@ url= requests.get('https://docs.google.com/spreadsheets/d/' +
 csv_raw = StringIO(url.text)
 df = pd.read_csv(csv_raw, header=None)
 
-#Make list of 24 randomly generated numbers
-numlist = []
-while len(numlist)<25:
-     r=random.randint(0,len(df)-1)
-     if r not in numlist: numlist.append(r)
-          
+## Pull random items from the bingo options
+df2=df.sample(n=25)
+    
 #Make list of bingo options
 bingolist = []
-for i in range(len(numlist)):
-    options=df.iloc[i][0]    
+for i in range (25):
+    options=df2.iloc[i][0]
     if i == 12:
       bingolist.append(freespace)
     else:
       bingolist.append(options)
+      
+      print(options)
+      
 row1=bingolist[0:5]
 row2=bingolist[5:10]
 row3=bingolist[10:15]
