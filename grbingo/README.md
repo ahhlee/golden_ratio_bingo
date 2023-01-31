@@ -6,14 +6,26 @@ The project takes in a Google Sheet with a list of common scenarios that happen 
 
 ********************************
 
-## Required Modules:
+## Requirements:
+-Python3
 -random
 -requests
 -pandas
 -io
 -tabulate
 
-These modules can be installed via the pip install command followed by the module name.
+These modules can be installed via the following commands:
+Mac/Linux: 
+'''brew install python3'''
+'''pip install requests'''
+
+Windows:
+You'll need to install the latest version of Python3 from [here](https://www.python.org/downloads/windows/).
+Then run the following command:
+'''python -m pip install requests'''
+
+
+
 
 *******************************
 
@@ -21,7 +33,7 @@ These modules can be installed via the pip install command followed by the modul
 
 After cloning the file, use the following command in the terminal to run the program:
 
-**python grbingo.py**
+**python3 grbingo.py**
 
 Once the program has successfully run it will create a grbingocard.txt file in the current directory.
 
