@@ -7,21 +7,21 @@ The project takes in a Google Sheet with a list of common scenarios that happen 
 ********************************
 
 ## Requirements:
--Python3
--random
--requests
--pandas
--io
+-Python3\
+-random\
+-requests\
+-pandas\
+-io\
 -tabulate
 
 These modules can be installed via the following commands:
-Mac/Linux: 
-```brew install python3```
+Mac/Linux: \
+```brew install python3```\
 ```pip3 install requests```
 
-Windows:
-You'll need to install the latest version of Python3 from [here](https://www.python.org/downloads/windows/).
-Then run the following command:
+Windows:\
+You'll need to install the latest version of Python3 from [here](https://www.python.org/downloads/windows/).\
+Then run the following command:\
 ```python -m pip install requests```
 
 
