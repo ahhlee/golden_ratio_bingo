@@ -10,9 +10,7 @@ from tabulate import tabulate
 freespace='Free Space'
 
 ## Load the bingo options from the linked spreadsheet. 
-url= requests.get('https://docs.google.com/spreadsheets/d/' + 
-                   '1BezMJn85XcywGSUkN_KO4_OuTh-8xrtCV6wXwIYOcrs' +
-                   '/export?gid=0&format=csv')
+url= requests.get('https://docs.google.com/spreadsheets/d/e/2PACX-1vQf_1onKJlXJ8KVdnjFU8mQRCz2QfIjsmVzpevFom7DZPvEtgsCRzZnIfl9-YyofQqGILf9RPSAilqg/pub?output=csv')
 csv_raw = StringIO(url.text)
 df = pd.read_csv(csv_raw, header=None)
 
