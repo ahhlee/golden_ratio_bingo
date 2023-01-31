@@ -10,7 +10,6 @@ from tabulate import tabulate
 freespace='Free Space'
 
 ## Load the bingo options from the linked spreadsheet. 
-
 url= requests.get('https://docs.google.com/spreadsheets/d/' + 
                    '1BezMJn85XcywGSUkN_KO4_OuTh-8xrtCV6wXwIYOcrs' +
                    '/export?gid=0&format=csv')
