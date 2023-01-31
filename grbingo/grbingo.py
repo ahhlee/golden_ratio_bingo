@@ -28,8 +28,6 @@ for i in range (25):
     else:
       bingolist.append(options)
       
-      print(options)
-      
 row1=bingolist[0:5]
 row2=bingolist[5:10]
 row3=bingolist[10:15]
