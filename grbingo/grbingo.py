@@ -4,14 +4,12 @@ import random
 import requests
 import pandas as pd
 from io import StringIO
-
-
+from tabulate import tabulate
 
 
 freespace='Free Space'
 
-# Read the CSV into pandas data frame (df)
-#df = pd.read_csv('grbingo.csv', header=None)
+## Load the bingo options from the linked spreadsheet. 
 
 url= requests.get('https://docs.google.com/spreadsheets/d/' + 
                    '1BezMJn85XcywGSUkN_KO4_OuTh-8xrtCV6wXwIYOcrs' +
@@ -34,7 +32,6 @@ for i in range(len(numlist)):
     else:
       bingolist.append(options)
 row1=bingolist[0:5]
-print(row1)
 row2=bingolist[5:10]
 row3=bingolist[10:15]
 row4=bingolist[15:20]
@@ -42,7 +39,8 @@ row5=bingolist[20:25]
 
 table=[row1,row2,row3,row4,row5]
 
-bingo=tabulate(table, headers=["B","I","N","G","O"], tablefmt="fancy_grid")
+bingo=tabulate(table, headers=["B","I","N","G","O"], tablefmt="grid", maxcolwidths=25)
 
-print(bingo)
-
+bingocard = open("grbingocard.txt","w")
+bingocard.write(bingo)
+bingocard.close()
