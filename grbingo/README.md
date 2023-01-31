@@ -6,24 +6,24 @@ The project takes in a Google Sheet with a list of common scenarios that happen 
 
 ********************************
 
-## Requirements:
+## Required Modules:
 -random
 -requests
 -pandas
 -io
 -tabulate
 
+These modules can be installed via the pip install command followed by the module name.
+
 *******************************
 
 ## To Run:
 
-To run install required modules via pip install. 
-
-Once random, requests, pandas, io, and tabulate modules have been installed use the following command to run the program in the terminal:
+After cloning the file, use the following command in the terminal to run the program:
 
 **python grbingo.py**
 
-This will run the program which will write and save a grbingocard.txt file.
+Once the program has successfully run it will create a grbingocard.txt file in the current directory.
 
 *********
 ### Example Output:
