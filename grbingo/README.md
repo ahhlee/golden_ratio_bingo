@@ -48,4 +48,5 @@ Once the program has successfully run it will create a grbingocard.txt file in t
 ### Example Output:
 
 ![grbingooutput](https://user-images.githubusercontent.com/20246529/215878590-547dcb76-e607-40e5-a42d-1381ec9003e3.png)
-[grbingocard.txt](https://github.com/ahhlee/projects/files/10543569/grbingocard.txt)
+
+[grbingocard.txt](https://github.com/ahhlee/projects/files/10550838/grbingocard.txt)
