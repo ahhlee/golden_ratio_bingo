@@ -13,7 +13,7 @@ The project takes in a Google Sheet with a list of common scenarios that happen 
 -io
 -tabulate
 
-*****
+*******************************
 
 ## To Run:
 
@@ -23,26 +23,10 @@ Once random, requests, pandas, io, and tabulate modules have been installed use 
 
 **python grbingo.py**
 
-*********
-###Example Output:
+This will run the program which will write and save a grbingocard.txt file.
 
-+---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
-| B                         | I                        | N                     | G                       | O                      |
-+===========================+==========================+=======================+=========================+========================+
-| Venk dances for a meal    | Guac spins               | Voodoo chomps someone | Chief Brody lays on his | Hopper does a schnoop  |
-|                           |                          |                       | back with a toy         | loop while playing tug |
-+---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
-| Voodoo tries to eat       | WAFFLES                  | Someone eats a roasty | Voodoo spins            | Venk spins             |
-| something that's not      |                          |                       |                         |                        |
-| VoodsFoods                |                          |                       |                         |                        |
-+---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
-| Venk is the MOON!         | Hopper gets the ball     | Free Space            | Voodoo lays down in the | Hopper goes for a run  |
-|                           | first when playing fetch |                       | middle of a walk        |                        |
-|                           | in the water             |                       |                         |                        |
-+---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
-| Venk hides under the desk | Hopper food slide (so    | Guac eats inside      | VoodsFoods is served on | Voodoo states his      |
-| to avoid walking          | cool)                    |                       | the patio               | opinions (whines)      |
-+---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
-| Guac growls or barks at a | Hopper has a ball that   | Elevator ride         | At least three dogs are | Greeeeeeen Beeeeeeans! |
-| ball                      | Guac wants               |                       | playing together        |                        |
-+---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
+*********
+### Example Output:
+
+
+[grbingocard.txt](https://github.com/ahhlee/projects/files/10543569/grbingocard.txt)
