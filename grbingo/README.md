@@ -26,14 +26,23 @@ Once random, requests, pandas, io, and tabulate modules have been installed use 
 *********
 ###Example Output:
 
-| B                                                   | I                                                          | N                     | G                                        | O
-                |
-|-----------------------------------------------------|------------------------------------------------------------|-----------------------|------------------------------------------|----------------------------------------------|
-| Venk dances for a meal                              | Guac spins                                                 | Voodoo chomps someone | Chief Brody lays on his back with a toy  | Hopper does a schnoop loop while playing tug |
-| Voodoo tries to eat something that's not VoodsFoods | WAFFLES                                                    | Someone eats a roasty | Voodoo spins                             | Venk spins
-                |
-| Venk is the MOON!                                   | Hopper gets the ball first when playing fetch in the water | Free Space            | Voodoo lays down in the middle of a walk | Hopper goes for a run        
-                |
-| Venk hides under the desk to avoid walking          | Hopper food slide (so cool)                                | Guac eats inside      | VoodsFoods is served on the patio        | Voodoo states his opinions (whines)          |
-| Guac growls or barks at a ball                      | Hopper has a ball that Guac wants                          | Elevator ride         | At least three dogs are playing together | Greeeeeeen Beeeeeeans!       
-                |
++---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
+| B                         | I                        | N                     | G                       | O                      |
++===========================+==========================+=======================+=========================+========================+
+| Venk dances for a meal    | Guac spins               | Voodoo chomps someone | Chief Brody lays on his | Hopper does a schnoop  |
+|                           |                          |                       | back with a toy         | loop while playing tug |
++---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
+| Voodoo tries to eat       | WAFFLES                  | Someone eats a roasty | Voodoo spins            | Venk spins             |
+| something that's not      |                          |                       |                         |                        |
+| VoodsFoods                |                          |                       |                         |                        |
++---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
+| Venk is the MOON!         | Hopper gets the ball     | Free Space            | Voodoo lays down in the | Hopper goes for a run  |
+|                           | first when playing fetch |                       | middle of a walk        |                        |
+|                           | in the water             |                       |                         |                        |
++---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
+| Venk hides under the desk | Hopper food slide (so    | Guac eats inside      | VoodsFoods is served on | Voodoo states his      |
+| to avoid walking          | cool)                    |                       | the patio               | opinions (whines)      |
++---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
+| Guac growls or barks at a | Hopper has a ball that   | Elevator ride         | At least three dogs are | Greeeeeeen Beeeeeeans! |
+| ball                      | Guac wants               |                       | playing together        |                        |
++---------------------------+--------------------------+-----------------------+-------------------------+------------------------+
